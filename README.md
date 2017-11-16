@@ -13,4 +13,4 @@ Finally you can find this result
 
 ![alt tag](https://github.com/ragaie/Counter/blob/master/IncCounter/screen%20shot%20/Screen%20Shot%202017-11-16%20at%201.15.09%20PM.png)
 
-# it will be avialble for cocaPod soon.
+# it will be availablefor cocaPod soon.
