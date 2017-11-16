@@ -32,6 +32,7 @@
 		815C56FF1FBC945D00787D7A /* CounterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDelegate.swift; sourceTree = "<group>"; };
 		81C0C5481FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.02.18 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-16 at 1.02.18 PM.png"; sourceTree = "<group>"; };
 		81C0C5491FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.15.09 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-16 at 1.15.09 PM.png"; sourceTree = "<group>"; };
+		81C0C54B1FBDCB2200969BE8 /* LICENSE.MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,11 @@
 		815C56DA1FBC8CD100787D7A = {
 			isa = PBXGroup;
 			children = (
+				81C0C54B1FBDCB2200969BE8 /* LICENSE.MIT */,
+				815C56F91FBC91B100787D7A /* Counter.swift */,
+				815C56FF1FBC945D00787D7A /* CounterDelegate.swift */,
+				815C56FB1FBC91C600787D7A /* Counter.xib */,
+				815C56FD1FBC93AB00787D7A /* Counter.xcassets */,
 				815C56E51FBC8CD100787D7A /* IncCounter */,
 				815C56E41FBC8CD100787D7A /* Products */,
 			);
@@ -79,10 +85,6 @@
 		815C56F81FBC8CFE00787D7A /* counter Control */ = {
 			isa = PBXGroup;
 			children = (
-				815C56F91FBC91B100787D7A /* Counter.swift */,
-				815C56FF1FBC945D00787D7A /* CounterDelegate.swift */,
-				815C56FB1FBC91C600787D7A /* Counter.xib */,
-				815C56FD1FBC93AB00787D7A /* Counter.xcassets */,
 			);
 			path = "counter Control";
 			sourceTree = "<group>";
