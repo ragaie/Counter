@@ -80,9 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				815C56F91FBC91B100787D7A /* Counter.swift */,
+				815C56FF1FBC945D00787D7A /* CounterDelegate.swift */,
 				815C56FB1FBC91C600787D7A /* Counter.xib */,
 				815C56FD1FBC93AB00787D7A /* Counter.xcassets */,
-				815C56FF1FBC945D00787D7A /* CounterDelegate.swift */,
 			);
 			path = "counter Control";
 			sourceTree = "<group>";

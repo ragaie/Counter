@@ -135,12 +135,10 @@ import UIKit
             // initalize images
             
             
-//            rateImage =    UIImage(named: "star3", in: bundle,compatibleWith: nil)!
-//            halfrateImage =    UIImage(named: "star2", in: bundle,compatibleWith: nil)!
-//
-//            unrateImage =    UIImage(named: "star1", in: bundle,compatibleWith: nil)!
-//
-            
+          imagedec = UIImage(named: "Image-" , in: bundle,compatibleWith: nil)!
+
+          imagein = UIImage(named: "Image+", in: bundle,compatibleWith: nil)!
+
             
         }
         
