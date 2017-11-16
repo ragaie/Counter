@@ -12,6 +12,10 @@
 		815C56EC1FBC8CD100787D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C56EA1FBC8CD100787D7A /* Main.storyboard */; };
 		815C56EE1FBC8CD100787D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815C56ED1FBC8CD100787D7A /* Assets.xcassets */; };
 		815C56F11FBC8CD100787D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C56EF1FBC8CD100787D7A /* LaunchScreen.storyboard */; };
+		815C56FA1FBC91B100787D7A /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C56F91FBC91B100787D7A /* Counter.swift */; };
+		815C56FC1FBC91C600787D7A /* Counter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815C56FB1FBC91C600787D7A /* Counter.xib */; };
+		815C56FE1FBC93AB00787D7A /* Counter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815C56FD1FBC93AB00787D7A /* Counter.xcassets */; };
+		815C57001FBC945D00787D7A /* CounterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C56FF1FBC945D00787D7A /* CounterDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		815C56ED1FBC8CD100787D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815C56F01FBC8CD100787D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		815C56F21FBC8CD100787D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815C56F91FBC91B100787D7A /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		815C56FB1FBC91C600787D7A /* Counter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Counter.xib; sourceTree = "<group>"; };
+		815C56FD1FBC93AB00787D7A /* Counter.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Counter.xcassets; sourceTree = "<group>"; };
+		815C56FF1FBC945D00787D7A /* CounterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDelegate.swift; sourceTree = "<group>"; };
+		81C0C5481FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.02.18 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-16 at 1.02.18 PM.png"; sourceTree = "<group>"; };
+		81C0C5491FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.15.09 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-16 at 1.15.09 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		815C56E51FBC8CD100787D7A /* IncCounter */ = {
 			isa = PBXGroup;
 			children = (
+				81C0C5291FBDA7CF00969BE8 /* screen shot  */,
+				815C56F81FBC8CFE00787D7A /* counter Control */,
 				815C56E61FBC8CD100787D7A /* AppDelegate.swift */,
 				815C56E81FBC8CD100787D7A /* ViewController.swift */,
 				815C56EA1FBC8CD100787D7A /* Main.storyboard */,
@@ -62,6 +74,26 @@
 				815C56F21FBC8CD100787D7A /* Info.plist */,
 			);
 			path = IncCounter;
+			sourceTree = "<group>";
+		};
+		815C56F81FBC8CFE00787D7A /* counter Control */ = {
+			isa = PBXGroup;
+			children = (
+				815C56F91FBC91B100787D7A /* Counter.swift */,
+				815C56FB1FBC91C600787D7A /* Counter.xib */,
+				815C56FD1FBC93AB00787D7A /* Counter.xcassets */,
+				815C56FF1FBC945D00787D7A /* CounterDelegate.swift */,
+			);
+			path = "counter Control";
+			sourceTree = "<group>";
+		};
+		81C0C5291FBDA7CF00969BE8 /* screen shot  */ = {
+			isa = PBXGroup;
+			children = (
+				81C0C5481FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.02.18 PM.png */,
+				81C0C5491FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.15.09 PM.png */,
+			);
+			path = "screen shot ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815C56FC1FBC91C600787D7A /* Counter.xib in Resources */,
+				815C56FE1FBC93AB00787D7A /* Counter.xcassets in Resources */,
 				815C56F11FBC8CD100787D7A /* LaunchScreen.storyboard in Resources */,
 				815C56EE1FBC8CD100787D7A /* Assets.xcassets in Resources */,
 				815C56EC1FBC8CD100787D7A /* Main.storyboard in Resources */,
@@ -138,6 +172,8 @@
 			files = (
 				815C56E91FBC8CD100787D7A /* ViewController.swift in Sources */,
 				815C56E71FBC8CD100787D7A /* AppDelegate.swift in Sources */,
+				815C56FA1FBC91B100787D7A /* Counter.swift in Sources */,
+				815C57001FBC945D00787D7A /* CounterDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -277,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z3K9T9U74;
 				INFOPLIST_FILE = IncCounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.IncCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z3K9T9U74;
 				INFOPLIST_FILE = IncCounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.IncCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";

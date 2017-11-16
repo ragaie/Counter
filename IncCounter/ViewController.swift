@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController ,CounterDelegate{
+   
+    
+    @IBOutlet weak var counterView: Counter!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        counterView.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +24,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func counter(_ counter: Counter, changedValue value: Int) {
+        print(value)
+    }
+    
+    
+    @IBAction func getCounterValue(_ sender: Any) {
+        
+        
+        print(counterView.counterValue)
+        
+        
+    }
+    
+    
 }
 
