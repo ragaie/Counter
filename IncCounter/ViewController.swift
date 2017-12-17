@@ -4,7 +4,9 @@
 //
 //  Created by Ragaie alfy on 11/15/17.
 //  Copyright © 2017 Ragaie alfy. All rights reserved.
-//
+
+
+
 
 import UIKit
 
@@ -24,10 +26,14 @@ class ViewController: UIViewController ,CounterDelegate{
         // Dispose of any resources that can be recreated.
     }
 
-    func counter(_ counter: Counter, changedValue value: Int) {
+    func counter(_ counter: Counter, changedValue value: Int, buttonPress: String) {
+        
         print(value)
+        print(buttonPress)
+        
     }
     
+  
     
     @IBAction func getCounterValue(_ sender: Any) {
         

@@ -16,7 +16,7 @@ import UIKit
         
         @IBOutlet weak var decrement: UIButton!
 
-        @IBOutlet weak var valueLabel: UILabel!
+        @IBOutlet weak public var valueLabel: UILabel!
         public var ID : String!
     
         public var counterValue : Int! = 0
@@ -162,7 +162,7 @@ import UIKit
 
         if delegate != nil {
             
-            delegate.counter(self, changedValue: counterValue)
+            delegate.counter(self, changedValue: counterValue,buttonPress: "+")
         }
         
         
@@ -181,7 +181,7 @@ import UIKit
         }
         if delegate != nil {
         
-            delegate.counter(self, changedValue: counterValue)
+            delegate.counter(self, changedValue: counterValue,buttonPress: "-")
         }
 
     }

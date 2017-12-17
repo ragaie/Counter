@@ -30,6 +30,8 @@
 		815C56FB1FBC91C600787D7A /* Counter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Counter.xib; sourceTree = "<group>"; };
 		815C56FD1FBC93AB00787D7A /* Counter.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Counter.xcassets; sourceTree = "<group>"; };
 		815C56FF1FBC945D00787D7A /* CounterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDelegate.swift; sourceTree = "<group>"; };
+		8178DA471FE6891700055AC7 /* LICENSE.MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
+		8178DA481FE6891700055AC7 /* Counter-E.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Counter-E.podspec"; sourceTree = "<group>"; };
 		81C0C5481FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.02.18 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-16 at 1.02.18 PM.png"; sourceTree = "<group>"; };
 		81C0C5491FBDAAE300969BE8 /* Screen Shot 2017-11-16 at 1.15.09 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-16 at 1.15.09 PM.png"; sourceTree = "<group>"; };
 		81C0C54B1FBDCB2200969BE8 /* LICENSE.MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.MIT; sourceTree = "<group>"; };
@@ -49,7 +51,9 @@
 		815C56DA1FBC8CD100787D7A = {
 			isa = PBXGroup;
 			children = (
+				8178DA481FE6891700055AC7 /* Counter-E.podspec */,
 				81C0C54B1FBDCB2200969BE8 /* LICENSE.MIT */,
+				8178DA471FE6891700055AC7 /* LICENSE.MIT */,
 				815C56F91FBC91B100787D7A /* Counter.swift */,
 				815C56FF1FBC945D00787D7A /* CounterDelegate.swift */,
 				815C56FB1FBC91C600787D7A /* Counter.xib */,

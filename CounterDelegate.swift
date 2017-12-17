@@ -11,7 +11,7 @@ import Foundation
 public protocol CounterDelegate {
     
     
-    func counter(_ counter: Counter, changedValue value : Int)
     
-    
+    func counter(_ counter: Counter, changedValue value : Int,buttonPress : String)
+
 }
