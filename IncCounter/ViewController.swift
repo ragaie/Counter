@@ -30,6 +30,7 @@ class ViewController: UIViewController ,CounterDelegate{
         
         print(value)
         print(buttonPress)
+        UIAlertView.init(title: "Alert", message: "You have value \(value)", delegate: nil, cancelButtonTitle: "Dismiss").show()
         
     }
     
